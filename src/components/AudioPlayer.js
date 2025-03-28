@@ -100,8 +100,19 @@ export default function AudioPlayer({ navigation, trackList, initialTrackIndex =
   };
   
   const handlePreviousTrack = async () => {
-    let prevIndex = selectedTrackIndex - 1;
-    if (prevIndex < 0) prevIndex = trackList.length - 1;
+    let prevIndex;
+    if (isRandom) {
+      if (trackList.length > 1) {
+        do {
+          prevIndex = Math.floor(Math.random() * trackList.length);
+        } while (prevIndex === selectedTrackIndex);
+      } else {
+        prevIndex = 0;
+      }
+    } else {
+      prevIndex = selectedTrackIndex - 1;
+      if (prevIndex < 0) prevIndex = trackList.length - 1;
+    }
     changeTrack(prevIndex);
   };
   
