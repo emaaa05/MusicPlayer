@@ -1,0 +1,118 @@
+export const mockSongs = {
+  "Playlist 1": [
+    {
+      id: 0,
+      cancion: require("../../assets/Djo - End Of Beginning (Official Audio).mp3"), 
+      img: require("../../assets/djo.jpg"),  
+      descripcion: "End Of Beginning",
+      banda: "Djo",
+    },
+    {
+      id: 1,
+      cancion: require("../../assets/Hers - What Once Was (Official Audio).mp3"), 
+      img: require("../../assets/hers.jpeg"),  
+      descripcion: "What once was",
+      banda: "Her's",
+    },
+    {
+      id: 2, 
+      cancion: require("../../assets/Clairo - 4EVER  with lyrics.mp3"), 
+      img: require("../../assets/clairo2.jpg"), 
+      descripcion: "4ever",
+      banda: "Clairo",
+    },
+    {
+      id: 3,
+      cancion: require("../../assets/JAKOB - APRIL.mp3"), 
+      img: require("../../assets/jakoob.jpg"), 
+      descripcion: "April",
+      banda: "Jakob",
+    },
+    {
+      id: 4,
+      cancion: require("../../assets/Suzanne - Bermuda Triangle  Bungalow Sessions.mp3"), 
+      img: require("../../assets/bermuda.jpg"), 
+      descripcion: "Suzanne",
+      banda: "Bermuda Triangle",
+    },
+    {
+      id: 5,
+      cancion: require("../../assets/Far Caspian - Finding My Way Home (Music Video).mp3"), 
+      img: require("../../assets/farcaspian.jpg"), 
+      descripcion: "Finding My Way Home",
+      banda: "Far Caspian",
+    },
+    {
+      id: 6,
+      cancion: require("../../assets/Kate Bush - Running Up That Hill - Official Music Video.mp3"), 
+      img: require("../../assets/stranger.jpg"), 
+      descripcion: "Running Up That Hill",
+      banda: "Kate Bush",
+    },
+    {
+      id: 7,
+      cancion: require("../../assets/Albert Hammond Jr - Rocky's Late Night (Audio) [X-4z0RXubHs].mp3"), 
+      img: require("../../assets/alberto.jpg"), 
+      descripcion: "Rockys Late Night",
+      banda: "Albert Hammond Jr",
+    },
+  ],
+  "Playlist 2": [
+    {
+      id: 0,
+      cancion: require("../../assets/Mardy Bum.mp3"),
+      img: require("../../assets/arctic.jpg"),
+      descripcion: "Mardy Bum",
+      banda: "Arctic Monkeys",
+    },
+    {
+      id: 1,
+      cancion: require("../../assets/Benny Sings - Passionfruit.mp3"),
+      img: require("../../assets/benny.jpg"),
+      descripcion: "Passionfruit",
+      banda: "Benny Sings",
+    },
+    {
+      id: 2,
+      cancion: require("../../assets/Crumb - Ghostride [Official Audio].mp3"),
+      img: require("../../assets/crumb.jpg"),
+      descripcion: "Ghostride",
+      banda: "Crumb",
+    },
+    {
+      id: 3,
+      cancion: require("../../assets/Frankie Valli - Can't Take My Eyes Off You (Official Audio).mp3"),
+      img: require("../../assets/frankie.jpg"),
+      descripcion: "Can't Take My Eyes Off You",
+      banda: "Frankie Valli",
+    },
+    {
+      id: 4,
+      cancion: require("../../assets/Junk (2011 Remaster).mp3"),
+      img: require("../../assets/paul.jpg"),
+      descripcion: "Junk (Remastered)",
+      banda: "Paul McCartney",
+    },
+    {
+      id: 5,
+      cancion: require("../../assets/Mac DeMarco  My Kind of Woman (OFFICIAL VIDEO).mp3"),
+      img: require("../../assets/mac.jpg"),
+      descripcion: "My Kind of Woman",
+      banda: "Mac Demarco",
+    },
+    {
+      id: 6,
+      cancion: require("../../assets/The Strokes - The Adults Are Talking (Official Video).mp3"),
+      img: require("../../assets/strokes.jpg"),
+      descripcion: "The Adults Are Talking",
+      banda: "The Strokes",
+    },
+    {
+      id: 7,
+      cancion: require("../../assets/Wallows - Remember When (Official Video).mp3"),
+      img: require("../../assets/wallows.jpg"),
+      descripcion: "Remember When",
+      banda: "Wallows",
+    }
+    ] 
+};
